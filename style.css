@@ -1,0 +1,55 @@
+body {background-image: url(galeria/tlo.png); margin: 0;}
+
+#wrapper {background-image: url(galeria/tlo1.png); width: 1000px; margin-left: auto; margin-right: auto; text-align: center;}
+
+header {margin-left: auto; margin-right: auto; text-align: center; padding: 30px 0;}
+
+#starL {float: left; width: 100px; height: auto; margin-left: 30px;}
+
+#starR {float: right; width: 100px; height: auto; margin-right: 30px;}
+
+#logo {float: left; text-align: center; margin-left: 100px; margin-right: auto;}
+
+h2 {text-align: center; font-size: 26px; font-family: 'Bevan', cursive; clear: both;}
+	
+#reference {clear: both; text-align: center;}
+
+nav {height: 60px; clear: both; display: table; margin: auto; overflow: hidden; padding: 30px; border-bottom-style: double;}
+
+ol {padding: 0; margin: 0; list-style-type: none; font-size: 18px; height: 35px; line-height: 200%;}
+
+ol a {font-family: 'Diplomata SC', cursive; color: black; text-decoration: none; display: block;}
+
+ol > li {float: left; width: 220px; height: 60px;}
+
+ol > li:hover > a {background-color: black; color: #653434; transition:300ms;}
+
+ol > li > ul {list-style-type: none; padding: 0; margin: 0; height: 40px; display: none;}
+
+ol > li:hover > ul {display: block; position: absolute; width: 100px;}
+
+ol > li > ul > li {width: 220px; position: relative; z-index: 100; background-color:#653434; border-top: 1px solid #000000;}
+
+ol > li > ul > li:hover {color: black;}
+
+ol > li > ul > li:hover > a {color: #d6aa55; transition:500ms;}
+
+section {margin-top: 40px; margin-bottom: 40px; text-align: center;}
+
+.content {margin-right: auto; margin-left: auto;}
+
+.left {float: left; width: 40%; margin-top: 50px;}
+
+.right {float: right;width: 60%; font-family: 'Barlow Condensed', sans-serif; font-size: 18px; letter-spacing: 1px;}
+
+p {margin-left: 50px; margin-right: 50px; font-family: 'Barlow Condensed', sans-serif; font-size: 22px; text-align: justify;}
+
+p::first-letter {font-size: 26px; font-weight: 600;}
+
+table {margin-left: auto; margin-right: auto; padding: 50px; border-collapse: collapse; text-align: center;}
+
+td {width: 60px; padding: 50px; border: 2px solid black; font-style: italic; font-weight: 600;}
+
+form {text-align: center; font-size: 22px; font-weight: 600; letter-spacing: 0.5px;}
+
+footer {text-align: center; margin-top: 30px; font-style: italic; font-size: 16px; clear: both;}
